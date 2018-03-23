@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".OrgActivity">
+
+    <item
+        android:id="@+id/prof"
+        android:title="Профиль"
+        android:checkable="false"
+        android:enabled="true"
+        android:onClick="orgpr"
+        android:visible="true" />
+    <item
+        android:id="@+id/nastr"
+        android:title="Настройки"
+        android:checkable="false"
+        android:enabled="true"
+        android:onClick="nas"
+        android:visible="true"/>
+    <item
+        android:id="@+id/vd"
+        android:title="Выход" />
+</menu>
